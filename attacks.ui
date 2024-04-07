@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1278</width>
+    <height>858</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DDOS  Attacks analysis using machine learning techniques</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(170, 0, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>230</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 16pt &quot;Arial Rounded MT Bold&quot;;
+    background-color:rgb(0, 0, 47);
+    color: rgb(255, 65, 20);
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 40px;
+    border-color:rgb(200, 66, 0) ;
+}
+QPushButton:hover {
+    background-color:rgb(255, 160, 52);
+	color: rgb(16, 16, 16);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Dataset Columns Filtering</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>670</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 16pt &quot;Arial Rounded MT Bold&quot;;
+    background-color:rgb(0, 0, 47);
+    color: rgb(255, 65, 20);
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 40px;
+    border-color:rgb(200, 66, 0) ;
+}
+QPushButton:hover {
+    background-color:rgb(255, 160, 52);
+	color: rgb(16, 16, 16);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Heat Map Generation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>340</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 16pt &quot;Arial Rounded MT Bold&quot;;
+    background-color:rgb(0, 0, 47);
+    color: rgb(255, 65, 20);
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 40px;
+    border-color:rgb(200, 66, 0) ;
+}
+QPushButton:hover {
+    background-color:rgb(255, 160, 52);
+	color: rgb(16, 16, 16);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Gaussian Naive Bayes Analysis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>450</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 16pt &quot;Arial Rounded MT Bold&quot;;
+    background-color:rgb(0, 0, 47);
+    color: rgb(255, 65, 20);
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 40px;
+    border-color:rgb(200, 66, 0) ;
+}
+QPushButton:hover {
+    background-color:rgb(255, 160, 52);
+	color: rgb(16, 16, 16);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Adaboost Analysis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>560</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 16pt &quot;Arial Rounded MT Bold&quot;;
+    background-color:rgb(0, 0, 47);
+    color: rgb(255, 65, 20);
+    border-style: outset;
+    padding: 2px;
+    font: bold 20px;
+    border-width: 6px;
+    border-radius: 40px;
+    border-color:rgb(200, 66, 0) ;
+}
+QPushButton:hover {
+    background-color:rgb(255, 160, 52);
+	color: rgb(16, 16, 16);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Comparison Plot</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>1191</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color:rgb(164, 74, 74);
+border: 8px solid rgb(24, 103, 155);
+border-color:rgb(255, 201, 142);
+	font: 70 18pt &quot;Rockwell&quot;;
+border-radius: 80px;
+background-color:rgb(128, 238, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#00003d;&quot;&gt;Detection and Characterization of &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#00003d;&quot;&gt;DDoS Attacks Using Time-Based Features&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-40</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>earth.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
